@@ -1,0 +1,22 @@
+//
+//  QuickBloxApp-Prefix.pch
+//  QuickBloxApp
+//
+//  Created by Sierra on 2/26/17.
+//  Copyright © 2017 Sierra. All rights reserved.
+//
+
+#ifndef QuickBloxApp_Prefix_pch
+#define QuickBloxApp_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+@import Quickblox;
+@import QuickbloxWebRTC;
+@import SystemConfiguration;
+@import MobileCoreServices;
+@import SVProgressHUD;
+
+#import "QuickBloxApp-Swift.h"
+
+#endif /* QuickBloxApp_Prefix_pch */
